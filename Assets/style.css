@@ -1,40 +1,90 @@
-.jumbotron h2 {
+body {
+    background-size: auto;
+    color: black;
+    font-family: 'News Cycle', sans-serif;
+}
+
+header {
+    background-color: limegreen;
     text-align: center;
-    color: white;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.jumbotron {
-    background-color: rgb(22, 23, 43);
-    font-family: 'Helvetica';
+h1 {
+    font-weight: bold;
 }
 
-#forecast-container {
-    display: flex;
-    justify-content: space-around;
+
+h4 {
+    padding-top: .5rem;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
-.forecastCard {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(72, 144, 228);
+h5 {
+    padding-top: .5rem;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.weather-img {
+    min-height: 8rem;
+}
+
+.div-search {
+    background-color: lightskyblue;
+    min-height: 12rem;
+    padding-bottom: .5rem;
+}
+
+.text-box {
+    background-color: pink;
+    height: 3rem;
+    font-weight: bolder;
+}
+
+.btn-blue {
+    background-color: #7a99c4;
+    color: #0c3a79;
+    margin-left: .5rem;
+    height: 3rem;
+}
+
+.list-item {
+    background-color: gray;
+    color: #0c3a79;
+    font-weight: bolder;
+}
+
+.search-card {
+    background-color: lightgray;
+    min-height: 12rem;
+}
+
+.div-today {
+    background-color:springgreen;
+    min-height: 12rem;
+    padding-bottom: 2rem;
     text-align: center;
-    align-items: center;
-    font-size: 20px;
-    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
 }
 
-.forecastCard h2 {
-    font-size: 30px;
+.div-forecast {
+    background-color: coral;
+    min-height: 12rem;
+    padding: .5rem;
 }
 
-.favorable {
-    background-color: lime;
+.forecast-card {
+    background-color: purple;
+    width: 20rem;
+    text-align: center;
 }
 
-.severe {
-    background-color: red;
+.forecast-img {
+    min-height: 5rem;
 }
 
-.moderate {
-    background-color: yellow;
-}
