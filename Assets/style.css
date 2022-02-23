@@ -1,0 +1,40 @@
+.jumbotron h2 {
+    text-align: center;
+    color: white;
+}
+
+.jumbotron {
+    background-color: rgb(22, 23, 43);
+    font-family: 'Helvetica';
+}
+
+#forecast-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.forecastCard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(72, 144, 228);
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.forecastCard h2 {
+    font-size: 30px;
+}
+
+.favorable {
+    background-color: lime;
+}
+
+.severe {
+    background-color: red;
+}
+
+.moderate {
+    background-color: yellow;
+}

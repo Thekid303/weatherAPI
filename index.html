@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel='stylesheet' href='assets/style.css' />
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h2>Weather Dashboard</h2>
+    </div>
+    <div class="search-container">
+      <form id="user-form" class="user-search">
+        <h3>Search for a City</h3>
+        <input type="text" id="city-input" />
+        <button class="sbmtbutton">Submit</button>
+      </form>
+    </div>
+    <ul id="history-container"></ul>
+    <div id="current-container" class="card"></div>
+    <div id="forecast-container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
